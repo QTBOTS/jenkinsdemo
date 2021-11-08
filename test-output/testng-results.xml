@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity suite" duration-ms="383" started-at="2021-11-08T17:37:54Z" finished-at="2021-11-08T17:37:54Z">
+    <groups>
+      <group name="regression">
+        <method signature="TC_Home.TC_HOME_004()[pri:0, instance:com.demo.testng_suite.TC_Home@59f99ea]" name="TC_HOME_004" class="com.demo.testng_suite.TC_Home"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_Home.TC_HOME_001()[pri:0, instance:com.demo.testng_suite.TC_Home@59f99ea]" name="TC_HOME_001" class="com.demo.testng_suite.TC_Home"/>
+        <method signature="TC_Home.TC_HOME_004()[pri:0, instance:com.demo.testng_suite.TC_Home@59f99ea]" name="TC_HOME_004" class="com.demo.testng_suite.TC_Home"/>
+        <method signature="TC_Widget.TC_Widget_004()[pri:0, instance:com.demo.testng_suite.TC_Widget@57fffcd7]" name="TC_Widget_004" class="com.demo.testng_suite.TC_Widget"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Home test cases" duration-ms="201" started-at="2021-11-08T17:37:54Z" finished-at="2021-11-08T17:37:54Z">
+      <class name="com.demo.testng_suite.TC_Home">
+        <test-method status="PASS" signature="TC_HOME_001()[pri:0, instance:com.demo.testng_suite.TC_Home@59f99ea]" name="TC_HOME_001" duration-ms="24" started-at="2021-11-08T17:37:54Z" finished-at="2021-11-08T17:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_HOME_001 -->
+        <test-method status="PASS" signature="TC_HOME_004()[pri:0, instance:com.demo.testng_suite.TC_Home@59f99ea]" name="TC_HOME_004" duration-ms="4" started-at="2021-11-08T17:37:54Z" finished-at="2021-11-08T17:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_HOME_004 -->
+      </class> <!-- com.demo.testng_suite.TC_Home -->
+    </test> <!-- Home test cases -->
+    <test name="Widget test cases" duration-ms="12" started-at="2021-11-08T17:37:54Z" finished-at="2021-11-08T17:37:54Z">
+      <class name="com.demo.testng_suite.TC_Widget">
+        <test-method status="PASS" signature="TC_Widget_004()[pri:0, instance:com.demo.testng_suite.TC_Widget@57fffcd7]" name="TC_Widget_004" duration-ms="4" started-at="2021-11-08T17:37:54Z" finished-at="2021-11-08T17:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Widget_004 -->
+      </class> <!-- com.demo.testng_suite.TC_Widget -->
+    </test> <!-- Widget test cases -->
+  </suite> <!-- Sanity suite -->
+</testng-results>

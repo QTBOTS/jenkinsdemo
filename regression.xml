@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression v14 suite">
+	<test name="Home test cases">
+		<classes>
+			<class name="com.demo.testng_suite.TC_Home">
+			<methods>
+			<!-- 	<exclude name="TC_HOME_001"/>  exclude only the test case which we mentioned in name-->
+			<!-- <include  name="TC_HOME_001"/>
+			<include  name="TC_HOME_003"/> -->
+			<!-- run the test caseswhich are in include name -->
+			</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Widget test cases">
+		<classes>
+			<class name="com.demo.testng_suite.TC_Widget" />
+		</classes>
+	</test>
+</suite>

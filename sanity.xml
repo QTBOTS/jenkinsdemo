@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity suite">
+	<test name="Home test cases">
+	<groups>
+	<run>
+	<include name = "sanity"/>
+	</run>
+	</groups>
+		<classes>
+			<class name="com.demo.testng_suite.TC_Home">			</class>
+		</classes>
+	</test>
+	<test name="Widget test cases">
+	<groups>
+	<run>
+	
+	<include name = "sanity"/>
+	<exclude name = "regression"></exclude>
+	</run>
+	</groups>
+		<classes>
+			<class name="com.demo.testng_suite.TC_Widget" />
+		</classes>
+	</test>
+</suite>
